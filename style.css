@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 610px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 7%;
+  background: #2c2c30;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.header img{
+  display: flex;
+  width: 17px;
+  height: 17px;
+}
+.header img:hover{
+  opacity: .8;
+  transition: all .4s ease-in-out;
+}
+nav a{
+  text-decoration: none;
+  color: #ccc;
+}
+nav a:hover{
+  color: rgb(247, 243, 243);
+  transition: all .4s ease-in-out;
+}
+
+section{
+  display: flex;
+  flex: 1;
+}
+
+.left-side{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  padding: 0 0 0 12px;
+}
+.right-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+}
+h1{
+  height: 90px;
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  color: #2c2c30;
+}
+h3{
+  height: 33px;
+  display: flex;
+  align-items: center;
+  color: #2c2c30;
+}
+.description-letter{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  color: #2c2c30;
+  text-align: justify;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+#graphite{
+  color: #4B4E53;
+}
+#sierra-blue{
+  color: #69abce;
+}
+#gold{
+  color: #F6E0C9;
+}
+.credit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 120px;
+}
+select{
+  width: 50%;
+  height: 40px;
+  outline: none;
+}
+.select-credit{
+  display: flex;
+}
+.show-price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.show-price p{
+  color: #2c2c30;
+  font-weight: bold;
+}
+.button{
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+button{
+  width: 100%;
+  height: 40px;
+  color: #ccc;
+  background: #2c2c30;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.right-side1 img{
+  width: 280px;
+  height: 280px;
+}
+
+.right-side2 img{
+  width: 130px;
+  height: 130px;
+}

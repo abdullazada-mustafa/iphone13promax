@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/apple-icon.png">
+    <title>Iphone 13 Pro Max - Apple</title>
+</head>
+<body>
+        <nav>
+            <div class="header">
+                <a href="#"><img src="./img/apple.png"></a>
+                <a href="#">Store</a>
+                <a href="#">Mac</a>
+                <a href="#">iPad</a>
+                <a href="#">iPhone</a>
+                <a href="#">Watch</a>
+                <a href="#">AirPods</a>
+                <a href="#">TV & Home</a>
+                <a href="#">Only on Apple</a>
+                <a href="#">Accessories</a>
+                <a href="#">Support</a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </nav>
+        <section>
+            <div class="left-side">
+                <h1>IPhone 13 Pro Max 256 GB</h1>
+                <h3>Description</h3>
+                <p class="description-letter">The iPhone 13 Pro and Pro Max feature an all-glass front and a textured glass back that sandwich a frame made from a shiny, surgical-grade stainless steel material. Apple matches the stainless steel frame to the color of the glass at the back for a seamless look.            </p>
+                <div class="info">
+                    <div class="price">
+                        <h3>Price</h3>
+                        <p>1199 $</p>
+                    </div>
+                    <div class="color">
+                        <h3>Color</h3>
+                        <a href="#" onclick="graphite(this)"><i class="fa-solid fa-circle" title="Graphite" id="graphite"></i></a>
+                        <a href="#" onclick="blue(this)"><i class="fa-solid fa-circle" title="Sierra Blue" id="sierra-blue"></i></a>
+                        <a href="#" onclick="gold(this)"><i class="fa-solid fa-circle" title="Gold" id="gold"></i></a>
+                    </div>
+                    <div class="wishlist">
+                        <h3>Add to wishlist</h3>
+                        <i class="fa-solid fa-heart" id="wishlist" onclick="AddWishlist()"  
+                        ondblclick="RemoveWishlist()"></i>
+                    </div>
+                </div>
+                <div class="credit">
+                    <h3>Take Credit</h3>
+                    <div class="select-credit">
+                        <select id="formselect" class="formselect" onclick="calculate()">
+                            <option value="0">---</option>
+                            <option value="6">6 months</option>
+                            <option value="9">9 months</option>
+                            <option value="12">12 months</option>
+                            <option value="18">18 months</option>
+                        </select>
+                        <div class="show-price">
+                            <p id="poll"></p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <button><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                </div>
+            
+            
+            </div>
+
+            <div class="right-side">
+                <div class="right-side1">
+                    <img src="./img/graphite1.png" id="mainphoto">
+                </div>
+                <div class="right-side2">
+                    <img src="./img/graphite1.png" id="photo1" onclick="slider(this)">
+                    <img src="./img/graphite2.png" id="photo2" onclick="slider(this)">
+                    <img src="./img/graphite3.png" id="photo3" onclick="slider(this)">
+                    <img src="./img/graphite4.png" id="photo4" onclick="slider(this)">
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <script src="./main.js"></script>
+</body>
+</html>
