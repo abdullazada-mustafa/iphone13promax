@@ -9,11 +9,7 @@ function RemoveWishlist(){
     hearticon.style.color = null
 }
 
-
-
 const price = 1199
-
-
 
 function calculate(){
     var SelectX = document.getElementById('formselect')
@@ -24,16 +20,7 @@ function calculate(){
     else{
         poll.innerText = "Total : " + Math.round(price / Number(SelectX.value)) + " $/month"
     }
-
-
 }
-
-
-
-
-
-
-
 
 
 function slider(imgs){
