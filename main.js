@@ -12,8 +12,8 @@ function RemoveWishlist(){
 const price = 1199
 
 function calculate(){
-    var SelectX = document.getElementById('formselect')
-    var poll = document.getElementById('poll')
+    let SelectX = document.getElementById('formselect')
+    const poll = document.getElementById('poll')
     if(SelectX.value == "0"){
         poll.innerText = SelectX.value + " $"
     }
@@ -24,7 +24,7 @@ function calculate(){
 
 
 function slider(imgs){
-    var mainphoto = document.getElementById('mainphoto')
+    let mainphoto = document.getElementById('mainphoto')
     mainphoto.src = imgs.src
 }
 function graphite(){
